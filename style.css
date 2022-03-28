@@ -1,0 +1,38 @@
+body
+{
+    background-color: lightcyan;
+}
+
+#info
+{
+    background-color: aqua;
+}
+
+#start
+{
+    background-color: lightgoldenrodyellow;
+}
+
+#webcam
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    border-width: 15px;
+    border-color: black;
+}
+
+#webcam-div
+{
+    background-color: lightgreen;
+}
+
+#resultRow
+{
+    background-color: lightsalmon;
+}
+
+img:hover
+{
+    border-radius: 140px;
+}

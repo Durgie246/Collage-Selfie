@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <title>Voice Selfie App Project</title>
+</head>
+<body>
+    <center>
+        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+            Collage Web App
+        </h1>
+        <hr>      
+        <div id  = "info">
+        <h4>
+            As soon as the popup appears, Please click allow. After you have spoken a command
+        </h4>
+        <br>
+        
+        <h4>
+        Say "selfie" for taking selfies and to make a Collage
+        </h4>
+        </div>
+        <br>
+        <Div id = "start">
+        <h4 style="font-size: 25px;">
+            Press the Start button
+        </h4>
+        <button style="font-size: 50px;" id = "Start1" onclick="Start()" class="btn btn-primary">
+            Start
+        </button>
+    </Div>
+    <div id = "webcam-div">
+        <h4 style = "font-size: 50px;">
+            Your webcam:
+        </h4>
+        <br>
+        <div id = "camera">
+
+        </div>
+    </div>
+        <br>
+        <br>
+        <div id = "resultRow">
+        <h1>
+            Your selfie will display here
+        </h1>
+       <br>
+            <div id="Result1">
+<img id = "meme1" src = "meme1.jpg"style = "width: 30%;">
+            </div>
+            <br>
+            <div id="Result2">
+<img id = "meme2" src = "meme2.webp" style = "width: 30%;">
+            </div>
+            <br>
+            <div id="Result3">
+<img  id = "meme3" src = "meme3.jpg" style="width: 30%;">
+            </div>
+        </div>
+    </center>
+
+</body>
+<script src="main.js"></script>
+</html>
